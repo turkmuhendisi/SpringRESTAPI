@@ -13,6 +13,6 @@ public class TestController {
 
     @GetMapping("/hello")
     public String getString() {
-        return "Selamun aleyküm Berat";
+        return "Selamun aleyküm Serhat";
     }
 }
