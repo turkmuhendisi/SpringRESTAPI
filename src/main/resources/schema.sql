@@ -4,3 +4,4 @@ CREATE TABLE cash_card (
     AMOUNT NUMBER NOT NULL DEFAULT 0
 );
 
+
