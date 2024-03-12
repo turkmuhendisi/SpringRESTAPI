@@ -22,10 +22,12 @@ dependencies {
 	testImplementation 'org.assertj:assertj-core:3.21.0'
 
 
-	// Add the two dependencies below
+	// Database dependencies
 	implementation 'org.springframework.data:spring-data-jdbc'
 	implementation 'com.h2database:h2'
-	implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+
+	// Security dependencies
+	implementation 'org.springframework.boot:spring-boot-starter-security'
 }
 
 tasks.named('bootBuildImage') {
